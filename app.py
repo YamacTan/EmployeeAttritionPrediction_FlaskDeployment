@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # dialect+driver://username:password@host:port/database
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc://username:Password1@hostip/databasename?driver=SQL+Server'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mssql+pyodbc://username:Password@hostip/databasename?driver=SQL+Server'
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
 
