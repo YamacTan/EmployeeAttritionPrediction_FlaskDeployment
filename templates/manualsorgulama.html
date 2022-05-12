@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manual Sorgulama</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body class="body">
+
+<div class="sayfabaslik">
+    Bilgi Girişi ile Sorgulama
+</div>
+
+<div class="form-center">
+    <form action="/manualsonuc" method="POST">
+        <label for="age">Age:  </label>
+        <input type="text" id="age" name="age">
+        <br><br>
+        <label for="maritalStatus">Marital Status:</label>
+        <select name="maritalStatus" id="maritalStatus">
+            <option value="2">Single</option>
+            <option value="1">Married</option>
+            <option value="0">Divorced</option>
+        </select>
+        <br><br>
+        <label for="overtime">Overtime:</label>
+        <select name="overtime" id="overtime">
+            <option value="1">Yes</option>
+            <option value="0">No</option>
+        </select>
+        <br><br>
+        <label for="numCompaniesWorked">Number of Companies Worked: </label>
+        <input type="text" id="numCompaniesWorked" name="numCompaniesWorked">
+        <br><br>
+        <label for="yearsAtCompany">Years At Company: </label>
+        <input type="text" id="yearsAtCompany" name="yearsAtcompany">
+        <br><br>
+        <label for="monthlyIncome">Monthly Income: </label>
+        <input type="text" id="monthlyIncome" name="monthlyIncome">
+        <br><br>
+        <label for="totalWorkingYears">Total Working Years: </label>
+        <input type="text" id="totalWorkingYears" name="totalWorkingYears">
+        <br><br>
+        <label for="yearsInCurrentRole">Years In Current Role: </label>
+        <input type="text" id="yearsInCurrentRole" name="yearsInCurrentRole">
+        <br><br>
+        <label for="stockOptionLevel">Stock Option Level: </label>
+        <input type="text" id="stockOptionLevel" name="stockOptionLevel">
+        <br><br>
+        <label for="yearsWithCurrentManager">Years with Current Manager: </label>
+        <input type="text" id="yearsWithCurrentManager" name="yearsWithCurrentManager">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+</div>
+
+<div id="content">
+    <img src="../static/turkcell_logo/turkcellbeyaz.png" alt="Turkcell Logo" class="turkcelllogo">
+</div>
+
+<div id="content">
+    <img src="../static/miuul_logo/miuulbeyaz.png" alt="Miuul Logo" class="miuulllogo">
+</div>
+
+</body>
+</html>
